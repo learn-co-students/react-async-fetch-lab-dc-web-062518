@@ -4,8 +4,8 @@ class Greeting extends Component {
 
   render() {
     return (
-      <div className="Greeting">
-        Hello!
+      <div>
+        {console.log(this.props.message)}
       </div>
     );
   }

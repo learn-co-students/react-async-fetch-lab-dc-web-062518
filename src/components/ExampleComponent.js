@@ -4,9 +4,13 @@ class ExampleComponent extends Component {
 
   render() {
     return (
-      <strong>
-        Example!
-      </strong>
+      <div>
+        <strong>
+          {this.props.number} people in Space!
+        </strong>
+
+
+      </div>
     )
   }
 
